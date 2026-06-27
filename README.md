@@ -64,6 +64,14 @@ jupyter notebook
 ```
 Double-click `quantum_laboratory.ipynb`, select the kernel named **Python (Quantum Lab)** from the top-right menu, and run the cells.
 
+### Alternative: Run Console Validation (Without Jupyter)
+If you do not have Jupyter installed, you can execute the entire simulation suite directly in your terminal using:
+```bash
+python test_lab.py
+```
+This will run all 11 experiments in sequence on the simulator and output text-based circuit diagrams and measurement distributions directly to your console.
+
+
 ---
 
 ## Workspace Structure
@@ -72,6 +80,7 @@ Double-click `quantum_laboratory.ipynb`, select the kernel named **Python (Quant
 quantum-computing-laboratory/
 ├── requirements.txt
 ├── README.md
+├── test_lab.py
 └── quantum_laboratory.ipynb
 ```
 
