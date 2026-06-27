@@ -1,5 +1,7 @@
 # Quantum Computing Laboratory
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ItsMeVikashKumarSingh/quantum-computing-laboratory/a38e9ae9d566c3cc7ca9f9cc7ffb50bc2798bdb3?urlpath=lab/tree/quantum_laboratory.ipynb)
+
 A simulation-based Jupyter notebook workspace designed to explore the fundamentals of quantum computing, quantum gates, multi-qubit registers, entanglement, and algorithmic complexity using Qiskit 1.x and Python.
 
 ---
