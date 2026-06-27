@@ -187,7 +187,7 @@ print("Experiment 11: Phase Damping Decoherence Simulation")
 print("--------------------------------------------------")
 error = phase_damping_error(0.15)
 noise_model = NoiseModel()
-noise_model.add_all_qubit_quantum_error(error, ['h', 'cx'])
+noise_model.add_all_qubit_quantum_error(error, ['h'])
 
 qc11 = QuantumCircuit(2, 2)
 qc11.h(0)
